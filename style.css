@@ -1,0 +1,50 @@
+.werpper{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(5, minmax(125px , auto));
+    grid-gap: 5px;
+}
+
+.box1{
+    border: 2px black solid;
+    padding: 20px;
+    font-size: larger;
+    grid-column: span 5;
+    background-color: purple;
+
+
+}
+.box2{
+    border: 2px black solid;
+    padding: 20px;
+    font-size: larger;
+    grid-row:span 4 ;
+    background-color:yellow;
+    
+
+}
+.box3{
+    border: 2px black solid;
+    padding: 20px;
+    font-size: larger;
+    grid-column: span 3;
+    grid-row: span 4;
+    background-color: skyblue;
+}
+.box4{
+    border: 2px black solid;
+    padding: 20px;
+    font-size: larger;
+    background-color: royalblue;
+   grid-row: span 4;
+   
+                                         
+}
+.box5{
+    border: 2px black solid;
+    padding: 20px;
+    font-size: larger;
+    background-color: red;
+    grid-column: span 5;
+}
+
